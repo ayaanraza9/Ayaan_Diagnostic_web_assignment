@@ -17,7 +17,7 @@ const Header = ({ cartData }) => {
           </div>
           {/* right side */}
           <div className="flex justify-around items-center lg:w-[26vw]">
-            <button className="text-[#1d5ea8] lg:text-lg border-2 p-2 rounded-lg font-semibold border-[#1d5ea8] xxs:text-xs cursor-pointer xxs:w-24 xss:p-4">
+            <button className="text-[#1d5ea8] lg:text-lg border-2 lg:p-2 lg:w-30 rounded-lg font-semibold border-[#1d5ea8] xxs:text-xs cursor-pointer">
               Login | SignUp
             </button>
             <button

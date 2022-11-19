@@ -46,31 +46,31 @@ const Cart = ({ cartData, removeProductToCart }) => {
             </div>
           </div>
           <div className="mt-16 w-[26vw] items-center justify-center flex">
-            <div className="w-[15vw]">
+            <div className="w-[19vw] font-semibold">
               <div className="border-2 border-sky-600 bg-sky-100 p-6 text-sm rounded-lg">
                 <div className="flex justify-between items-center ">
-                  <h2 > Home Collection Address</h2> <span className="border-2 border-sky-600 rounded-2xl">Change</span>
+                  <h2 className="text-sky-600 font-semibold text-base"> Home Collection Address</h2> <span className="border-2 border-sky-600 rounded-2xl text-sky-600 p-1 px-3">Change</span>
                 </div>
                 <p className="font-bold">Suresh Kumar</p>
                 <p>9876543210</p>
-                <p>#123, Street Avenue, Madhapur</p>
-                <p>Hyderabad - 500018</p>
+                <p className="text-slate-600">#123, Street Avenue, Madhapur</p>
+                <p className="text-slate-600">Hyderabad - 500018</p>
               </div>
               <div className=" border-2 border-sky-600 text-sky-600 p-3 my-4 rounded-lg flex items-center"><BsFillCalendarFill /><span className="ml-1 font-bold"> Select Slot</span></div>
               <div className=" border-2 border-sky-600 text-sky-600 p-3 my-4 rounded-lg flex items-center"><CiPercent /><span className="ml-1 font-bold">Apply Coupon</span></div>
 
-              <div className="border-2 border-slate-300 rounded-lg">
+              <div className="border-2 border-slate-300 rounded-lg font-semibold text-slate-600">
                 <div className="p-2">
                   <p className="flex justify-between py-2">No of test: <span> {cartData.length}</span></p>
-                  <p className="flex justify-between py-2">Value: <span>{getPrice(cartData, true)}</span></p>
-                  <p className="flex justify-between py-2">Discount: <span>{getPrice(cartData, false) - getPrice(cartData, true)}</span></p>
+                  <p className="flex justify-between py-2">Value: <span>&#8377;{getPrice(cartData, true)}</span></p>
+                  <p className="flex justify-between py-2">Discount: <span>&#8377;{getPrice(cartData, false) - getPrice(cartData, true)}</span></p>
                   <p className="flex justify-between  py-2">Coupon Applied: <span>0</span></p>
                   <p className="flex justify-between py-2">Sample Collection Charges: <span>0</span></p>
 
-                  <p className="flex justify-between py-2">Total Amount: <span>{getPrice(cartData, true) - (getPrice(cartData, true) - getPrice(cartData, false))}</span></p>
+                  <p className="flex justify-between py-2">Total Amount: <span>&#8377;{getPrice(cartData, true) - (getPrice(cartData, true) - getPrice(cartData, false))}</span></p>
                 </div>
                 <div className="bg-green-300 py-2">
-                  <p className="flex justify-between">Total Savings: <span>{getPrice(cartData, false) - getPrice(cartData, true)}</span></p></div>
+                  <p className="flex justify-between">Total Savings: <span>&#8377;{getPrice(cartData, false) - getPrice(cartData, true)}</span></p></div>
               </div>
             </div>
           </div>
