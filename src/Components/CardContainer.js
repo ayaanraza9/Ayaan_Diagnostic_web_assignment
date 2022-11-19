@@ -29,10 +29,10 @@ function CardContainer(props) {
         <div className="justify-center items-center flex">
           <section className="w-[76vw] mb-28">
             <div className="flex justify-between items-center">
-              <h1 className="text-4xl pb-3 font-bold text-slate-800">
+              <h1 className="text-4xl pb-3 font-bold text-slate-800 xxs:text-lg">
                 Popular Test
               </h1>
-              <p className="text-[#2e3192] font-bold text-xl cursor-pointer">
+              <p className="text-[#2e3192] font-bold text-xl cursor-pointer xxs:text-sm  mb-4">
                 View All
               </p>
             </div>
@@ -52,11 +52,11 @@ function CardContainer(props) {
         {/* popular Test start   */}
         <div className="w-screen bg-slate-100 flex justify-center items-center">
           <section className="w-[76vw] mb-28">
-            <div className="flex justify-between items-center">
-              <h1 className="text-4xl pb-3 font-bold text-slate-800 mt-10">
+            <div className="flex justify-between items-center ">
+              <h1 className="lg:text-4xl pb-3 font-bold text-slate-800 mt-10 xxs:text-lg">
                 Popular Health Packages
               </h1>
-              <p className="text-[#2e3192] font-bold text-xl cursor-pointer">
+              <p className="text-[#2e3192] font-bold lg:text-xl cursor-pointer xxs:text-sm xxs:mt-8">
                 View All
               </p>
             </div>
@@ -77,10 +77,10 @@ function CardContainer(props) {
         <div className="w-screen flex justify-center items-center p-10">
           <section className="w-[76vw] mb-20">
             <div className="flex justify-between items-center">
-              <h1 className="text-4xl pb-3 font-bold text-slate-800">
+              <h1 className="text-4xl pb-3 font-bold text-slate-800 xxs:text-lg">
                 Top Booked Tests
               </h1>
-              <p className="text-[#2e3192] font-bold text-xl cursor-pointer">
+              <p className="text-[#2e3192] font-bold text-xl cursor-pointer xxs:text-sm mb-4">
                 View All
               </p>
             </div>

@@ -12,8 +12,8 @@ const Cart = ({ cartData, removeProductToCart }) => {
   return (
     <>
       <div className="flex w-screen justify-center items-center py-10">
-        <div className="w-[76vw] flex justify-between mt-20">
-          <div className="w-[50vw]">
+        <div className="w-[76vw] lg:flex justify-between mt-20 xxs:block">
+          <div className="lg:w-[50vw] xxs:w-full">
             <div><h1 className="text-4xl font-bold">Cart Item(s): {cartData.length}</h1></div>
             <div className="w-full">{
               cartData.map((cartItem) => (
@@ -36,7 +36,7 @@ const Cart = ({ cartData, removeProductToCart }) => {
                       </span>
                     </div>
 
-                    <button onClick={() => removeProductToCart(cartItem)} className="flex justify-center items-center"><MdDelete /><span> Remove</span></button>
+                    <button onClick={() => removeProductToCart(cartItem)} className="flex justify-center items-center text-slate-500 font-semibold"><MdDelete /><span> Remove</span></button>
 
                   </div>
 
@@ -45,8 +45,8 @@ const Cart = ({ cartData, removeProductToCart }) => {
             }
             </div>
           </div>
-          <div className="mt-16 w-[26vw] items-center justify-center flex">
-            <div className="w-[19vw] font-semibold">
+          <div className="mt-16 lg:w-[26vw] items-center justify-center flex xxs:w-full">
+            <div className="lg:w-[19vw] font-semibold xxs:w-full">
               <div className="border-2 border-sky-600 bg-sky-100 p-6 text-sm rounded-lg">
                 <div className="flex justify-between items-center ">
                   <h2 className="text-sky-600 font-semibold text-base"> Home Collection Address</h2> <span className="border-2 border-sky-600 rounded-2xl text-sky-600 p-1 px-3">Change</span>

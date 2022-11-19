@@ -22,17 +22,17 @@ const Header = ({ cartData }) => {
             </button>
             <button
               type="button"
-              class="inline-flex relative items-center p-3 text-sm font-medium text-center text-[#1d5ea8] rounded-lg"
+              className="inline-flex relative items-center p-3 text-sm font-medium text-center text-[#1d5ea8] rounded-lg"
               onClick={() => setIsCartVisible(!isCartVisible)}
             >
               <MdShoppingCart size={45} />
-              <div class="inline-flex absolute -top-1 -right-1 justify-center items-center w-7 h-7 text-xs font-bold text-white bg-[#27B6DB] rounded-full border-2 border-white dark:border-gray-900" >
+              <div className="inline-flex absolute -top-1 -right-1 justify-center items-center w-7 h-7 text-xs font-bold text-white bg-[#27B6DB] rounded-full border-2 border-white dark:border-gray-900" >
                 {cartData.length}
               </div>
             </button>
           </div>
         </div>
-      </div>
+      </div >
       <div className={isCartVisible ? "" : 'd-none'}>
 
         <CartContainer cartData={cartData} />

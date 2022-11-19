@@ -19,7 +19,7 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className="slider">
+    <section className="slider xxs:hidden">
       <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
       <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
       {SliderData.map((slide, index) => {

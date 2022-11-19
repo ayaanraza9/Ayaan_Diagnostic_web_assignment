@@ -39,7 +39,7 @@ const Navbar = () => {
     <>
       <div className="flex justify-center items-center h-28 w-screen bg-[#2e3192] grid-cols-2 ">
         <div className="flex w-5/6 ">
-          <div className="w-10/12 h-28 flex">
+          <div className="w-10/12 h-28 flex xxs:hidden">
             <ul className="flex  justify-between items-center">
               {links.map(({ id, link, src }) => (
                 <li
@@ -56,8 +56,8 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <div className="flex justify-center items-center">
-            <ul className="flex justify-between items-center">
+          <div className="flex justify-center items-center xxs:w-full">
+            <ul className="flex justify-between items-center ">
               {socials.map(({ id, src }) => (
                 <li
                   key={id}

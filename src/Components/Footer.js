@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="w-screen h-80 bg-[#2e3192]">
         <div className="flex items-center w-[76vw] m-auto text-white">
           <div className="flex justify-center items-center h-64 w-[76vw]">
-            <div className="w-[15.2vw] h-full grid grid-cols-1 items-center">
+            <div className="lg:w-[15.2vw] h-full lg:grid grid-cols-1 items-center xxs:hidden">
               <div className=" leading-10">
                 <h2 className="font-bold">Quick Links</h2>
                 <p>FAQ's</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <p>Contact Us</p>
               </div>
             </div>
-            <div className="w-[15.2vw] h-full grid grid-cols-1 items-center">
+            <div className="lg:w-[15.2vw] h-full lg:grid grid-cols-1 items-center xxs:hidden">
               <div className=" leading-10">
                 <h2 className="font-bold">Services</h2>
                 <p>Order Medicine</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <p>Doctor Consultation</p>
               </div>
             </div>
-            <div className="w-[15.2vw] h-full grid grid-cols-1 items-center">
+            <div className="lg:w-[15.2vw] h-full lg:grid grid-cols-1 items-center xxs:hidden">
               <div className=" leading-10">
                 <h2 className="font-bold">Our Policies</h2>
                 <p>Privacy Policy</p>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <p>Cancellation Policy</p>
               </div>
             </div>
-            <div className="w-[15.2vw] h-full grid grid-cols-1 items-center">
+            <div className="lg:w-[15.2vw] h-full lg:grid grid-cols-1 items-center xxs:hidden">
               <div className=" leading-10">
                 <h2 className="font-bold">Socials</h2>
                 <div className="flex py-4">
@@ -51,7 +51,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[15.2vw] h-full grid grid-cols-1 items-center ">
+            <div className="lg:w-[15.2vw] h-full lg:grid grid-cols-1 items-center xxs:w-full xxs:mt-16">
               <div className=" leading-10">
                 <h2 className="font-bold">Our Apps</h2>
                 <div className="w-36 h-12 bg-white rounded-xl mt-4">
