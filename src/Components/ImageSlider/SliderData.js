@@ -1,0 +1,22 @@
+export const SliderData = [
+  {
+    image:
+      "https://cdscomdonline.gov.in/NewMedDev/resources/app_srv/NMD/global/img/banner_medical.jpg",
+  },
+  {
+    image:
+      "https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?w=2000",
+  },
+  {
+    image:
+      "https://thumbs.dreamstime.com/b/medicine-doctor-stethoscope-touching-medical-icons-network-medicine-doctor-stethoscope-touching-icons-medical-network-111489030.jpg",
+  },
+  {
+    image:
+      "https://www.plm.automation.siemens.com/media/global/en/plm-for-medial-devices-trial-sb-640x360_tcm27-110029.jpg",
+  },
+  {
+    image:
+      "https://media.npr.org/assets/img/2022/06/10/gettyimages-73773120_wide-5e93b2df9a36aaf27cf88435fcc6c1468bf6a3a8-s1100-c50.jpg",
+  },
+];
